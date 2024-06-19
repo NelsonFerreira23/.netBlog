@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using blog.Models;
 
 namespace blog.Data
 {
@@ -11,5 +12,6 @@ namespace blog.Data
         }
 
         public DbSet<blog.Models.Posts> Posts { get; set; }
+        public DbSet<blog.Models.User> User { get; set; } = default!;
     }
 }

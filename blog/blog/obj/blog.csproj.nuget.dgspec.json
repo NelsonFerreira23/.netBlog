@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nelson Ferreira\\Desktop\\artigos\\blog\\blog\\blog.csproj": {}
+    "C:\\Users\\Nelson Ferreira\\Desktop\\Blog\\blog\\blog\\blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nelson Ferreira\\Desktop\\artigos\\blog\\blog\\blog.csproj": {
+    "C:\\Users\\Nelson Ferreira\\Desktop\\Blog\\blog\\blog\\blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nelson Ferreira\\Desktop\\artigos\\blog\\blog\\blog.csproj",
+        "projectUniqueName": "C:\\Users\\Nelson Ferreira\\Desktop\\Blog\\blog\\blog\\blog.csproj",
         "projectName": "blog",
-        "projectPath": "C:\\Users\\Nelson Ferreira\\Desktop\\artigos\\blog\\blog\\blog.csproj",
+        "projectPath": "C:\\Users\\Nelson Ferreira\\Desktop\\Blog\\blog\\blog\\blog.csproj",
         "packagesPath": "C:\\Users\\Nelson Ferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nelson Ferreira\\Desktop\\artigos\\blog\\blog\\obj\\",
+        "outputPath": "C:\\Users\\Nelson Ferreira\\Desktop\\Blog\\blog\\blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nelson Ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,9 +61,17 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

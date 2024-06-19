@@ -1,0 +1,16 @@
+﻿@model blog.Models.Posts
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<div class="container">
+    <h1 class="mt-4">@Model.Title</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="@Model.Image" alt="@Model.Title" class="img-fluid mb-4">
+            <p>@Model.CreatedAt.ToShortDateString()</p>
+            <a href="@Url.Action("Index", "Posts")" class="btn btn-primary">Back to Posts</a>
+        </div>
+    </div>
+</div>
